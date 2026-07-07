@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { cn } from "@/lib/utils";
 
 const team = [
   {
@@ -44,7 +43,7 @@ export function TeamSection() {
               About Us
             </h2>
             <p className="text-lg md:text-xl text-slate-600 leading-relaxed">
-              Our mission is to find and supercharge founders taking on the planet's most important work. Together, we bring networks and over two decades of experience across conservation, venture, and startups.
+              Our mission is to find and supercharge founders taking on the planet&apos;s most important work. Together, we bring networks and over two decades of experience across conservation, venture, and startups.
             </p>
           </div>
 

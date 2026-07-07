@@ -98,7 +98,7 @@ export function ApproachSection() {
                     isEven ? "md:order-2" : "md:order-1",
                   )}
                 >
-                  <h3 className="font-mono text-2xl font-bold uppercase leading-tight tracking-wider text-[#181610] sm:text-3xl lg:text-4xl">
+                  <h3 className="font-syncopate text-2xl font-bold uppercase leading-tight tracking-wider text-[#181610] sm:text-3xl lg:text-4xl">
                     {card.title}
                   </h3>
 
@@ -107,14 +107,14 @@ export function ApproachSection() {
                   </p>
 
                   <div className="border-t border-[#181610]/15 pt-4">
-                    <span className="mb-3 block text-xs font-bold uppercase tracking-[0.15em] text-[#181610]/60">
+                    <span className="mb-3 block text-xs font-syncopate font-bold uppercase tracking-[0.15em] text-[#181610]/60">
                       Interest Areas
                     </span>
                     <div className="flex flex-wrap gap-2">
                       {card.tags.map((tag) => (
                         <span
                           key={tag}
-                          className="inline-flex items-center rounded-full border border-[#181610]/20 bg-white/40 px-4 py-1.5 text-sm font-medium text-[#181610]"
+                          className="inline-flex items-center rounded-full border border-[#181610]/20 bg-white/40 px-4 py-1.5 text-xs font-syncopate font-bold uppercase text-[#181610]"
                         >
                           {tag}
                         </span>

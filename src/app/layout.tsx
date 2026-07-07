@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Roboto, Roboto_Serif } from "next/font/google";
+import { Roboto, Roboto_Serif, Syncopate } from "next/font/google";
 import "./globals.css";
 
 const robotoSerif = Roboto_Serif({
@@ -13,6 +13,13 @@ const roboto = Roboto({
   variable: "--font-roboto",
   subsets: ["latin"],
   weight: ["300", "400", "500", "700"],
+  display: "swap",
+});
+
+const syncopate = Syncopate({
+  variable: "--font-syncopate",
+  subsets: ["latin"],
+  weight: ["400", "700"],
   display: "swap",
 });
 
@@ -34,7 +41,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${robotoSerif.variable} ${roboto.variable} h-full antialiased`}
+      className={`${robotoSerif.variable} ${roboto.variable} ${syncopate.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">{children}</body>
     </html>

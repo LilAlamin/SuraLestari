@@ -68,8 +68,8 @@ export function HeroSection() {
           <h1
             className={cn(
               'home-hero_hero-text',
-              'font-heading text-center font-light leading-[0.95] tracking-[-0.03em]',
-              'max-w-[75vw] text-[clamp(3rem,8vw,115px)]',
+              'font-heading text-center font-light leading-[1] tracking-[-0.03em]',
+              'max-w-[75vw] text-[clamp(3rem,9.5vw,144px)]',
               'text-[#e9eaec]'
             )}
           >

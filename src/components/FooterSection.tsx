@@ -77,9 +77,6 @@ export function FooterSection({ className }: FooterSectionProps) {
                 <ExternalLink className="size-4 opacity-50 transition-opacity group-hover:opacity-100" />
               </Link>
             </nav>
-            <div className="hidden lg:block">
-              <span className="text-5xl">🌿</span>
-            </div>
           </div>
         </div>
       </section>
