@@ -35,7 +35,7 @@ const team = [
 
 export function TeamSection() {
   return (
-    <section className="section_team relative z-20 bg-white py-16 md:py-24 text-slate-900">
+    <section id="tim" className="section_team relative z-20 bg-white py-16 md:py-24 text-slate-900">
       <div className="padding-global px-5 md:px-10 lg:px-20 mx-auto w-full max-w-7xl">
         <div className="container-large">
           <div className="mb-12 md:mb-16 max-w-3xl">

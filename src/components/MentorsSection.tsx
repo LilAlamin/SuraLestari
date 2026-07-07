@@ -36,7 +36,7 @@ const mentors = [
 
 export function MentorsSection() {
   return (
-    <section className="relative z-20 flex flex-col md:flex-row w-full bg-white overflow-hidden border-t">
+    <section id="mentor" className="relative z-20 flex flex-col md:flex-row w-full bg-white overflow-hidden border-t">
       <div className="section_sticky-header is-mentor sticky top-0 z-10 bg-white md:w-1/4 p-6 md:p-12 border-b md:border-b-0 md:border-r border-gray-200">
         <h2 className="text-3xl md:text-5xl font-bold tracking-tight">Mentors</h2>
       </div>

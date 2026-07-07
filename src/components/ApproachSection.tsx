@@ -29,7 +29,7 @@ export function ApproachSection() {
   return (
     <>
       {/* Sticky Approach Header — sits behind the card sections */}
-      <section className="section_sticky-header is-approach sticky top-0 z-10 w-full bg-[#def2ef]">
+      <section id="pendekatan" className="section_sticky-header is-approach sticky top-0 z-10 w-full bg-[#def2ef]">
         <div className="mx-auto max-w-7xl px-6 sm:px-10 lg:px-20">
           <div className="flex min-h-[60vh] flex-col items-center justify-center py-16 text-center">
             <h2 className="font-heading text-4xl font-bold tracking-tight text-[#181610] sm:text-5xl lg:text-6xl">

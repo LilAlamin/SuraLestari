@@ -38,7 +38,7 @@ const getCategoryColor = (category: string) => {
 
 export function PortfolioSection() {
   return (
-    <section className="flex flex-col lg:flex-row w-full relative z-20">
+    <section id="destinasi" className="flex flex-col lg:flex-row w-full relative z-20">
       <div className="section_sticky-header is-portfolio lg:w-1/3 lg:sticky lg:top-0 lg:h-screen p-8 lg:p-16 flex flex-col justify-center bg-zinc-50">
         <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6 text-zinc-900">
           Portfolio

@@ -29,15 +29,6 @@ export function HeroSection() {
 
   return (
     <div className="hero-sticky-wrapper relative w-full">
-      {/* Fixed Sticky Navbar Logo — fades out when leaving hero */}
-      <div
-        className="navbar_component fixed left-0 right-0 top-0 z-30 mt-[36px] px-[72px] max-md:mt-4 max-md:px-6 max-sm:px-4 flex items-center justify-center w-full pointer-events-none transition-opacity duration-300"
-        style={{ opacity: textOpacity }}
-      >
-        <span className="font-heading text-[28px] tracking-[0.08em] text-[#e9eaec] select-none max-md:text-[22px] max-sm:text-[18px]">
-          SuraLestari
-        </span>
-      </div>
 
       {/* Sticky Hero Background & Text */}
       <header className="section_home-hero sticky top-0 z-0 flex h-screen flex-col justify-center overflow-hidden">

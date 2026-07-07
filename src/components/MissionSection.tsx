@@ -1,6 +1,6 @@
 export function MissionSection() {
   return (
-    <section className="relative z-20 w-full min-h-[80vh] bg-white flex flex-col items-center justify-center py-24 px-6 text-center">
+    <section id="tentang" className="relative z-20 w-full min-h-[80vh] bg-white flex flex-col items-center justify-center py-24 px-6 text-center">
       {/* Content Container */}
       <div className="relative z-30 flex flex-col items-center max-w-[768px] mx-auto w-full -mt-12">
         <div className="mb-6">
