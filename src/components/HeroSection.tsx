@@ -1,10 +1,11 @@
 'use client'
 
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { cn } from '@/lib/utils'
 
 export function HeroSection() {
   const [scrollY, setScrollY] = useState(0)
+  const videoRef = useRef<HTMLVideoElement>(null)
 
   useEffect(() => {
     let ticking = false
@@ -22,6 +23,25 @@ export function HeroSection() {
     return () => window.removeEventListener('scroll', onScroll)
   }, [])
 
+  // Chain videos: Solo_Hero → solo2_hero → loop back
+  useEffect(() => {
+    const video = videoRef.current
+    if (!video) return
+
+    const playlist = ['/videos/Solo_Hero.mp4', '/videos/solo2_hero.mp4']
+    let current = 0
+
+    const playNext = () => {
+      current = (current + 1) % playlist.length
+      video.src = playlist[current]
+      video.load()
+      video.play().catch(() => {})
+    }
+
+    video.addEventListener('ended', playNext)
+    return () => video.removeEventListener('ended', playNext)
+  }, [])
+
   // Mountains video subtle parallax shift
   const bgParallax = scrollY * 0.15
   // Hero text opacity
@@ -36,19 +56,14 @@ export function HeroSection() {
         <div className="home-hero_background-video-wrapper absolute bottom-0 left-[14.4px] right-[14.4px] top-[14.4px] z-0 overflow-hidden rounded-t-[64px] max-md:rounded-t-[32px] max-sm:rounded-t-[16px]">
           <div className="video-overlay-layer absolute inset-0 z-[1] bg-black/15" />
           <video
+            ref={videoRef}
             className="home-hero_background-video h-full w-full scale-110 object-cover transition-transform duration-75 ease-out"
             style={{ transform: `translateY(${bgParallax}px) scale(1.1)` }}
+            src="/videos/Solo_Hero.mp4"
             autoPlay
             muted
-            loop
             playsInline
-            poster=""
-          >
-            <source
-              src="/videos/Solo_Hero.mp4"
-              type="video/mp4"
-            />
-          </video>
+          />
         </div>
 
         {/* Hero Text */}
