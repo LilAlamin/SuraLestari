@@ -56,12 +56,28 @@ export function Navbar() {
           <a
             href="#"
             onClick={(e) => handleLinkClick(e, "#")}
-            className={cn(
-              "font-heading text-2xl tracking-[0.08em] select-none font-bold transition-colors duration-300",
-              isScrolled || isMobileMenuOpen ? "text-[#181610]" : "text-[#e9eaec]"
-            )}
+            className="flex items-center gap-3 transition-colors duration-300"
           >
-            SuraLestari
+            <div className="flex items-center gap-2 sm:gap-3">
+              <img 
+                src="/images/logo-solo.png" 
+                alt="Solo The Spirit of Java" 
+                className="h-8 sm:h-10 w-auto object-contain drop-shadow-sm"
+              />
+              <img 
+                src="/images/logo-hut.png" 
+                alt="HUT Kota Solo" 
+                className="h-8 sm:h-10 w-auto object-contain drop-shadow-sm"
+              />
+            </div>
+            <span
+              className={cn(
+                "font-heading text-xl sm:text-2xl tracking-[0.08em] select-none font-bold transition-colors duration-300 hidden md:block",
+                isScrolled || isMobileMenuOpen ? "text-[#181610]" : "text-[#e9eaec] drop-shadow-md"
+              )}
+            >
+              SuraLestari
+            </span>
           </a>
 
           {/* Desktop Navigation Links */}
@@ -75,7 +91,7 @@ export function Navbar() {
                   "font-body text-sm font-medium tracking-wide transition-colors duration-300",
                   isScrolled
                     ? "text-[#181610]/85 hover:text-black"
-                    : "text-[#e9eaec]/85 hover:text-white"
+                    : "text-[#e9eaec]/90 hover:text-white drop-shadow-md"
                 )}
               >
                 {link.name}
@@ -92,7 +108,7 @@ export function Navbar() {
                 "inline-flex h-10 items-center justify-center rounded-full px-6 text-sm font-medium tracking-wide transition-all duration-300 shadow-sm",
                 isScrolled
                   ? "bg-[#181610] hover:bg-[#3b3f2d] text-white"
-                  : "bg-white/15 hover:bg-white/25 text-white backdrop-blur-sm border border-white/20"
+                  : "bg-white/15 hover:bg-white/25 text-white backdrop-blur-sm border border-white/20 drop-shadow-md"
               )}
             >
               Mulai Perjalanan
@@ -109,14 +125,14 @@ export function Navbar() {
               <X
                 className={cn(
                   "h-6 w-6 transition-colors duration-300",
-                  isScrolled || isMobileMenuOpen ? "text-[#181610]" : "text-[#e9eaec]"
+                  isScrolled || isMobileMenuOpen ? "text-[#181610]" : "text-[#e9eaec] drop-shadow-md"
                 )}
               />
             ) : (
               <Menu
                 className={cn(
                   "h-6 w-6 transition-colors duration-300",
-                  isScrolled ? "text-[#181610]" : "text-[#e9eaec]"
+                  isScrolled ? "text-[#181610]" : "text-[#e9eaec] drop-shadow-md"
                 )}
               />
             )}

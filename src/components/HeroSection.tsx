@@ -53,15 +53,16 @@ export function HeroSection() {
 
         {/* Hero Text */}
         <div 
-          className="padding-global relative z-[2] flex h-full flex-col items-center justify-center px-10 max-md:px-6 max-sm:px-4 transition-opacity duration-150"
+          className="padding-global relative z-[2] flex h-full flex-col items-center justify-center pt-24 md:pt-0 px-4 md:px-6 lg:px-10 transition-opacity duration-150"
           style={{ opacity: textOpacity }}
         >
           <h1
             className={cn(
               'home-hero_hero-text',
-              'font-heading text-center font-light leading-[1] tracking-[-0.03em]',
-              'max-w-[75vw] text-[clamp(3rem,9.5vw,144px)]',
-              'text-[#e9eaec]'
+              'font-heading text-center font-light leading-[1.1] md:leading-[1] tracking-[-0.03em]',
+              'w-full max-w-[95vw] sm:max-w-[85vw] lg:max-w-[75vw]',
+              'text-[clamp(2.25rem,8vw,144px)] md:text-[clamp(3rem,9.5vw,144px)]',
+              'text-[#e9eaec] drop-shadow-2xl'
             )}
           >
             Jelajahi Keindahan{' '}
@@ -72,7 +73,7 @@ export function HeroSection() {
 
       {/* Cloud Video Layer that scrolls UP over the sticky Hero */}
       <div className="home-hero_bg-video-wrapper relative z-10 mix-blend-screen bg-gradient-to-b from-transparent via-[#b9b9b9ba] via-10% to-white to-25% w-full pointer-events-none">
-        <div className="home-hero_cloud-video relative z-10 mix-blend-screen w-full mt-[-38vw] max-md:mt-[-50vw] inline-block">
+        <div className="home-hero_cloud-video relative z-10 mix-blend-screen w-full mt-[-38vw] md:mt-[-38vw] max-md:mt-[-60vw] max-sm:mt-[-80vw] inline-block">
           <video
             className="w-full h-auto object-cover scale-105 mix-blend-screen"
             autoPlay
