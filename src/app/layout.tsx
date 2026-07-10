@@ -30,8 +30,8 @@ export const metadata: Metadata = {
   description:
     "SuraLestari mengajak Anda mengenal destinasi ekowisata di Surakarta. Nikmati keindahan alam, lestarikan budaya lokal, dan dukung UMKM melalui perjalanan wisata yang bertanggung jawab.",
   icons: {
-    icon: "/images/logo-solo.png",
-    apple: "/images/logo-solo.png",
+    icon: "/seo/logo.svg",
+    apple: "/seo/logo.svg",
   },
 };
 
