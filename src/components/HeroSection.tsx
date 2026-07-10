@@ -54,7 +54,8 @@ export function HeroSection() {
       <header className="section_home-hero sticky top-0 z-0 flex h-screen flex-col justify-center overflow-hidden">
         {/* Background Video (Mountains) */}
         <div className="home-hero_background-video-wrapper absolute bottom-0 left-[14.4px] right-[14.4px] top-[14.4px] z-0 overflow-hidden rounded-t-[64px] max-md:rounded-t-[32px] max-sm:rounded-t-[16px]">
-          <div className="video-overlay-layer absolute inset-0 z-[1] bg-black/15" />
+          {/* Gradient overlay to ensure transparent navbar legibility over bright video frames */}
+          <div className="video-overlay-layer absolute inset-0 z-[1] bg-gradient-to-b from-black/60 via-black/15 to-transparent" />
           <video
             ref={videoRef}
             className="home-hero_background-video h-full w-full scale-110 object-cover transition-transform duration-75 ease-out"

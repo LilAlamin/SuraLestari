@@ -1,20 +1,18 @@
 import { HeroSection } from "@/components/HeroSection";
-import { MissionSection } from "@/components/MissionSection";
-import { ApproachSection } from "@/components/ApproachSection";
-import { PortfolioSection } from "@/components/PortfolioSection";
-import { TeamSection } from "@/components/TeamSection";
-import { MentorsSection } from "@/components/MentorsSection";
+import { TentangSection } from "@/components/TentangSection";
+import { PendekatanSection } from "@/components/PendekatanSection";
+import { DestinasiSection } from "@/components/DestinasiSection";
+import { DampakSection } from "@/components/DampakSection";
 import { FooterSection } from "@/components/FooterSection";
 
 export default function Home() {
   return (
     <main>
       <HeroSection />
-      <MissionSection />
-      <ApproachSection />
-      <PortfolioSection />
-      <TeamSection />
-      <MentorsSection />
+      <TentangSection />
+      <PendekatanSection />
+      <DestinasiSection />
+      <DampakSection />
       <FooterSection />
     </main>
   );

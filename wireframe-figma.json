@@ -1,0 +1,218 @@
+{
+  "type": "DOCUMENT",
+  "children": [
+    {
+      "type": "CANVAS",
+      "name": "SuraLestari Wireframe",
+      "children": [
+        {
+          "type": "FRAME",
+          "name": "Navbar",
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 80,
+          "children": [
+            { "type": "TEXT", "name": "Logo SuraLestari", "x": 80, "y": 24, "width": 160, "height": 32, "characters": "SuraLestari", "fontSize": 24, "fontWeight": 700 },
+            { "type": "TEXT", "name": "Nav: Beranda", "x": 800, "y": 30, "width": 70, "height": 20, "characters": "Beranda", "fontSize": 14 },
+            { "type": "TEXT", "name": "Nav: Tentang", "x": 890, "y": 30, "width": 70, "height": 20, "characters": "Tentang", "fontSize": 14 },
+            { "type": "TEXT", "name": "Nav: Pendekatan", "x": 980, "y": 30, "width": 90, "height": 20, "characters": "Pendekatan", "fontSize": 14 },
+            { "type": "TEXT", "name": "Nav: Destinasi", "x": 1090, "y": 30, "width": 80, "height": 20, "characters": "Destinasi", "fontSize": 14 },
+            { "type": "TEXT", "name": "Nav: Tim", "x": 1180, "y": 30, "width": 40, "height": 20, "characters": "Tim", "fontSize": 14 },
+            { "type": "TEXT", "name": "Nav: Mentor", "x": 1240, "y": 30, "width": 60, "height": 20, "characters": "Mentor", "fontSize": 14 },
+            { "type": "RECTANGLE", "name": "CTA Button", "x": 1320, "y": 20, "width": 100, "height": 40, "cornerRadius": 20, "fills": [{ "color": { "r": 0.094, "g": 0.086, "b": 0.063 } }] },
+            { "type": "TEXT", "name": "Mulai Perjalanan", "x": 1332, "y": 30, "width": 76, "height": 20, "characters": "Mulai Perjalanan", "fontSize": 12, "fontWeight": 500, "fills": [{ "color": { "r": 1, "g": 1, "b": 1 } }] }
+          ]
+        },
+        {
+          "type": "FRAME",
+          "name": "Hero Section",
+          "x": 0,
+          "y": 80,
+          "width": 1440,
+          "height": 720,
+          "backgroundColor": { "r": 0.15, "g": 0.15, "b": 0.15 },
+          "children": [
+            { "type": "RECTANGLE", "name": "Video Background", "x": 0, "y": 0, "width": 1440, "height": 720, "fills": [{ "color": { "r": 0.2, "g": 0.22, "b": 0.25 } }] },
+            { "type": "RECTANGLE", "name": "Dark Overlay", "x": 0, "y": 0, "width": 1440, "height": 720, "opacity": 0.3, "fills": [{ "color": { "r": 0, "g": 0, "b": 0 } }] },
+            { "type": "TEXT", "name": "Hero Headline", "x": 200, "y": 300, "width": 1040, "height": 120, "characters": "Jelajahi Keindahan Surakarta.", "fontSize": 80, "fontWeight": 300, "textAlignHorizontal": "CENTER", "fills": [{ "color": { "r": 0.91, "g": 0.92, "b": 0.93 } }] },
+            { "type": "RECTANGLE", "name": "Cloud Video Layer", "x": 0, "y": 400, "width": 1440, "height": 400, "opacity": 0.4 }
+          ]
+        },
+        {
+          "type": "FRAME",
+          "name": "Mission / Tentang Section",
+          "x": 0,
+          "y": 800,
+          "width": 1440,
+          "height": 500,
+          "backgroundColor": { "r": 1, "g": 1, "b": 1 },
+          "children": [
+            { "type": "TEXT", "name": "Eyebrow", "x": 550, "y": 100, "width": 340, "height": 24, "characters": "Eco Journey Surakarta", "fontSize": 12, "letterSpacing": 4, "textAlignHorizontal": "CENTER", "fills": [{ "color": { "r": 0.23, "g": 0.25, "b": 0.18 } }] },
+            { "type": "TEXT", "name": "Headline", "x": 295, "y": 145, "width": 850, "height": 120, "characters": "Wisata Berkelanjutan untuk Masa Depan", "fontSize": 54, "fontWeight": 300, "textAlignHorizontal": "CENTER" },
+            { "type": "LINE", "name": "Divider", "x": 680, "y": 280, "width": 80, "height": 2 },
+            { "type": "TEXT", "name": "Body Text", "x": 370, "y": 310, "width": 700, "height": 80, "characters": "SuraLestari mengajak Anda mengenal destinasi ekowisata di Surakarta. Nikmati keindahan alam, lestarikan budaya lokal, dan dukung UMKM melalui perjalanan wisata yang bertanggung jawab.", "fontSize": 18, "fontWeight": 300, "textAlignHorizontal": "CENTER", "lineHeight": 1.6 },
+            { "type": "TEXT", "name": "Marker 01", "x": 650, "y": 420, "width": 140, "height": 20, "characters": "01 // SURALESTARI MISSION", "fontSize": 10, "letterSpacing": 3, "textAlignHorizontal": "CENTER", "opacity": 0.5 },
+            { "type": "IMAGE", "name": "Tugu Keris Watermark", "x": 370, "y": 50, "width": 700, "height": 400, "opacity": 0.05 }
+          ]
+        },
+        {
+          "type": "FRAME",
+          "name": "Approach Header",
+          "x": 0,
+          "y": 1300,
+          "width": 1440,
+          "height": 500,
+          "backgroundColor": { "r": 1, "g": 1, "b": 1 },
+          "children": [
+            { "type": "TEXT", "name": "Eyebrow", "x": 610, "y": 140, "width": 220, "height": 24, "characters": "Eksplorasi Solo", "fontSize": 12, "letterSpacing": 4, "textAlignHorizontal": "CENTER", "fills": [{ "color": { "r": 0.23, "g": 0.25, "b": 0.18 } }] },
+            { "type": "TEXT", "name": "Title", "x": 470, "y": 180, "width": 500, "height": 60, "characters": "Jenis Pariwisata", "fontSize": 48, "fontWeight": 300, "textAlignHorizontal": "CENTER" },
+            { "type": "TEXT", "name": "Subtitle", "x": 545, "y": 240, "width": 350, "height": 40, "characters": "di Surakarta", "fontSize": 28, "fontWeight": 300, "fontStyle": "italic", "fills": [{ "color": { "r": 0.35, "g": 0.39, "b": 0.26 } }] },
+            { "type": "TEXT", "name": "Description", "x": 370, "y": 300, "width": 700, "height": 50, "characters": "Alam, budaya, dan komunitas menyatu dalam setiap perjalanan wisata berkelanjutan.", "fontSize": 16, "textAlignHorizontal": "CENTER", "opacity": 0.6 }
+          ]
+        },
+        {
+          "type": "FRAME",
+          "name": "Card 01 — Wisata Alam",
+          "x": 0,
+          "y": 1800,
+          "width": 1440,
+          "height": 550,
+          "backgroundColor": { "r": 1, "g": 1, "b": 1 },
+          "children": [
+            { "type": "RECTANGLE", "name": "Image Wisata Alam", "x": 80, "y": 100, "width": 580, "height": 435, "cornerRadius": 12, "fills": [{ "color": { "r": 0.4, "g": 0.5, "b": 0.3 } }] },
+            { "type": "TEXT", "name": "Label 01", "x": 730, "y": 130, "width": 30, "height": 20, "characters": "01", "fontSize": 12, "letterSpacing": 3, "opacity": 0.4 },
+            { "type": "TEXT", "name": "Title", "x": 770, "y": 125, "width": 400, "height": 45, "characters": "WISATA ALAM", "fontSize": 36, "fontWeight": 700, "letterSpacing": 2 },
+            { "type": "TEXT", "name": "Subhead", "x": 770, "y": 175, "width": 500, "height": 30, "characters": "Eksplorasi Keindahan Alam Solo", "fontSize": 18, "fontStyle": "italic", "fills": [{ "color": { "r": 0.35, "g": 0.39, "b": 0.26 } }] },
+            { "type": "TEXT", "name": "Body", "x": 770, "y": 220, "width": 560, "height": 120, "characters": "Surakarta dikelilingi panorama alam yang memukau. Dari hamparan hijau Taman Balekambang yang bersejarah, kesejukan Hutan Kota Kadipaten, hingga pesona Waduk Cengklik saat senja.", "fontSize": 15, "lineHeight": 1.7, "opacity": 0.7 },
+            { "type": "LINE", "name": "Divider", "x": 770, "y": 370, "width": 560, "height": 1 },
+            { "type": "TEXT", "name": "Section Label", "x": 770, "y": 390, "width": 180, "height": 20, "characters": "Destinasi Unggulan", "fontSize": 10, "fontWeight": 700, "letterSpacing": 3, "opacity": 0.5 },
+            { "type": "RECTANGLE", "name": "Tag 1", "x": 770, "y": 425, "width": 160, "height": 36, "cornerRadius": 8, "fills": [{ "color": { "r": 0.95, "g": 0.98, "b": 0.93 } }] },
+            { "type": "TEXT", "name": "Taman Balekambang", "x": 780, "y": 433, "width": 140, "height": 20, "characters": "Taman Balekambang", "fontSize": 11, "fontWeight": 700 },
+            { "type": "RECTANGLE", "name": "Tag 2", "x": 945, "y": 425, "width": 155, "height": 36, "cornerRadius": 8, "fills": [{ "color": { "r": 0.95, "g": 0.98, "b": 0.93 } }] },
+            { "type": "TEXT", "name": "Hutan Kota Kadipaten", "x": 955, "y": 433, "width": 135, "height": 20, "characters": "Hutan Kota Kadipaten", "fontSize": 11, "fontWeight": 700 },
+            { "type": "RECTANGLE", "name": "Tag 3", "x": 1115, "y": 425, "width": 130, "height": 36, "cornerRadius": 8, "fills": [{ "color": { "r": 0.95, "g": 0.98, "b": 0.93 } }] },
+            { "type": "TEXT", "name": "Waduk Cengklik", "x": 1125, "y": 433, "width": 110, "height": 20, "characters": "Waduk Cengklik", "fontSize": 11, "fontWeight": 700 }
+          ]
+        },
+        {
+          "type": "FRAME",
+          "name": "Card 02 — Budaya & Heritage",
+          "x": 0,
+          "y": 2350,
+          "width": 1440,
+          "height": 550,
+          "backgroundColor": { "r": 0.976, "g": 0.969, "b": 0.949 },
+          "children": [
+            { "type": "TEXT", "name": "Label 02", "x": 80, "y": 130, "width": 30, "height": 20, "characters": "02", "fontSize": 12, "letterSpacing": 3, "opacity": 0.4 },
+            { "type": "TEXT", "name": "Title", "x": 120, "y": 125, "width": 500, "height": 45, "characters": "BUDAYA & HERITAGE", "fontSize": 36, "fontWeight": 700, "letterSpacing": 2 },
+            { "type": "TEXT", "name": "Subhead", "x": 120, "y": 175, "width": 500, "height": 30, "characters": "Warisan Leluhur yang Hidup", "fontSize": 18, "fontStyle": "italic", "fills": [{ "color": { "r": 0.35, "g": 0.39, "b": 0.26 } }] },
+            { "type": "TEXT", "name": "Body", "x": 120, "y": 220, "width": 560, "height": 120, "characters": "Solo adalah denyut nadi budaya Jawa. Keraton Kasunanan Surakarta dan Pura Mangkunegaran berdiri sebagai saksi bisanya sejarah yang masih lestari.", "fontSize": 15, "lineHeight": 1.7, "opacity": 0.7 },
+            { "type": "RECTANGLE", "name": "Image Budaya", "x": 780, "y": 100, "width": 580, "height": 435, "cornerRadius": 12, "fills": [{ "color": { "r": 0.5, "g": 0.3, "b": 0.2 } }] },
+            { "type": "LINE", "name": "Divider", "x": 120, "y": 370, "width": 560, "height": 1 },
+            { "type": "TEXT", "name": "Section Label", "x": 120, "y": 390, "width": 180, "height": 20, "characters": "Destinasi Unggulan", "fontSize": 10, "fontWeight": 700, "letterSpacing": 3, "opacity": 0.5 },
+            { "type": "RECTANGLE", "name": "Tag 1", "x": 120, "y": 425, "width": 155, "height": 36, "cornerRadius": 8, "fills": [{ "color": { "r": 0.95, "g": 0.98, "b": 0.93 } }] },
+            { "type": "TEXT", "name": "Keraton Kasunanan", "x": 130, "y": 433, "width": 135, "height": 20, "characters": "Keraton Kasunanan", "fontSize": 11, "fontWeight": 700 },
+            { "type": "RECTANGLE", "name": "Tag 2", "x": 290, "y": 425, "width": 170, "height": 36, "cornerRadius": 8, "fills": [{ "color": { "r": 0.95, "g": 0.98, "b": 0.93 } }] },
+            { "type": "TEXT", "name": "Pura Mangkunegaran", "x": 300, "y": 433, "width": 150, "height": 20, "characters": "Pura Mangkunegaran", "fontSize": 11, "fontWeight": 700 },
+            { "type": "RECTANGLE", "name": "Tag 3", "x": 475, "y": 425, "width": 165, "height": 36, "cornerRadius": 8, "fills": [{ "color": { "r": 0.95, "g": 0.98, "b": 0.93 } }] },
+            { "type": "TEXT", "name": "Kampung Batik Laweyan", "x": 485, "y": 433, "width": 145, "height": 20, "characters": "Kampung Batik Laweyan", "fontSize": 11, "fontWeight": 700 }
+          ]
+        },
+        {
+          "type": "FRAME",
+          "name": "Card 03 — UMKM & Komunitas",
+          "x": 0,
+          "y": 2900,
+          "width": 1440,
+          "height": 550,
+          "backgroundColor": { "r": 1, "g": 1, "b": 1 },
+          "children": [
+            { "type": "RECTANGLE", "name": "Image UMKM", "x": 80, "y": 100, "width": 580, "height": 435, "cornerRadius": 12, "fills": [{ "color": { "r": 0.7, "g": 0.5, "b": 0.3 } }] },
+            { "type": "TEXT", "name": "Label 03", "x": 730, "y": 130, "width": 30, "height": 20, "characters": "03", "fontSize": 12, "letterSpacing": 3, "opacity": 0.4 },
+            { "type": "TEXT", "name": "Title", "x": 770, "y": 125, "width": 400, "height": 45, "characters": "UMKM & KOMUNITAS", "fontSize": 36, "fontWeight": 700, "letterSpacing": 2 },
+            { "type": "TEXT", "name": "Subhead", "x": 770, "y": 175, "width": 500, "height": 30, "characters": "Kreativitas dan Ekonomi Lokal", "fontSize": 18, "fontStyle": "italic", "fills": [{ "color": { "r": 0.35, "g": 0.39, "b": 0.26 } }] },
+            { "type": "TEXT", "name": "Body", "x": 770, "y": 220, "width": 560, "height": 120, "characters": "Semangat wirausaha warga Solo menghidupkan setiap sudut kota. Berburu barang antik di Pasar Triwindu, mencicipi Nasi Liwet di Pasar Gede.", "fontSize": 15, "lineHeight": 1.7, "opacity": 0.7 },
+            { "type": "LINE", "name": "Divider", "x": 770, "y": 370, "width": 560, "height": 1 },
+            { "type": "TEXT", "name": "Section Label", "x": 770, "y": 390, "width": 180, "height": 20, "characters": "Destinasi Unggulan", "fontSize": 10, "fontWeight": 700, "letterSpacing": 3, "opacity": 0.5 },
+            { "type": "RECTANGLE", "name": "Tag 1", "x": 770, "y": 425, "width": 115, "height": 36, "cornerRadius": 8 },
+            { "type": "TEXT", "name": "Pasar Triwindu", "x": 780, "y": 433, "width": 95, "height": 20, "characters": "Pasar Triwindu", "fontSize": 11, "fontWeight": 700 },
+            { "type": "RECTANGLE", "name": "Tag 2", "x": 900, "y": 425, "width": 105, "height": 36, "cornerRadius": 8 },
+            { "type": "TEXT", "name": "Pasar Gede", "x": 910, "y": 433, "width": 85, "height": 20, "characters": "Pasar Gede", "fontSize": 11, "fontWeight": 700 },
+            { "type": "RECTANGLE", "name": "Tag 3", "x": 1020, "y": 425, "width": 155, "height": 36, "cornerRadius": 8 },
+            { "type": "TEXT", "name": "Kampung Batik Kauman", "x": 1030, "y": 433, "width": 135, "height": 20, "characters": "Kampung Batik Kauman", "fontSize": 11, "fontWeight": 700 }
+          ]
+        },
+        {
+          "type": "FRAME",
+          "name": "Team Section",
+          "x": 0,
+          "y": 3450,
+          "width": 1440,
+          "height": 600,
+          "backgroundColor": { "r": 1, "g": 1, "b": 1 },
+          "children": [
+            { "type": "TEXT", "name": "Section Title", "x": 80, "y": 80, "width": 300, "height": 50, "characters": "About Us", "fontSize": 48, "fontWeight": 700 },
+            { "type": "TEXT", "name": "Section Desc", "x": 80, "y": 145, "width": 600, "height": 60, "characters": "Our mission is to find and supercharge founders taking on the planet's most important work.", "fontSize": 18, "lineHeight": 1.5, "opacity": 0.6 },
+            { "type": "RECTANGLE", "name": "Team Card 1", "x": 80, "y": 240, "width": 360, "height": 300, "cornerRadius": 12 },
+            { "type": "RECTANGLE", "name": "Avatar 1", "x": 80, "y": 240, "width": 360, "height": 200, "cornerRadius": 12, "fills": [{ "color": { "r": 0.8, "g": 0.8, "b": 0.85 } }] },
+            { "type": "TEXT", "name": "Name 1", "x": 80, "y": 460, "width": 360, "height": 30, "characters": "TOM QUIGLEY", "fontSize": 20, "fontWeight": 700 },
+            { "type": "TEXT", "name": "Role 1", "x": 80, "y": 490, "width": 360, "height": 20, "characters": "MANAGING DIRECTOR", "fontSize": 12, "fontWeight": 600, "fills": [{ "color": { "r": 0.2, "g": 0.4, "b": 0.8 } }] },
+            { "type": "TEXT", "name": "Bio 1", "x": 80, "y": 515, "width": 360, "height": 40, "characters": "A conservation technologist and startup operator with over a decade of advising.", "fontSize": 14, "opacity": 0.6 },
+            { "type": "RECTANGLE", "name": "Team Card 2", "x": 480, "y": 240, "width": 360, "height": 300, "cornerRadius": 12 },
+            { "type": "RECTANGLE", "name": "Avatar 2", "x": 480, "y": 240, "width": 360, "height": 200, "cornerRadius": 12, "fills": [{ "color": { "r": 0.75, "g": 0.78, "b": 0.85 } }] },
+            { "type": "TEXT", "name": "Name 2", "x": 480, "y": 460, "width": 360, "height": 30, "characters": "KEVIN WEBB", "fontSize": 20, "fontWeight": 700 },
+            { "type": "TEXT", "name": "Role 2", "x": 480, "y": 490, "width": 360, "height": 20, "characters": "MANAGING DIRECTOR", "fontSize": 12, "fontWeight": 600, "fills": [{ "color": { "r": 0.2, "g": 0.4, "b": 0.8 } }] },
+            { "type": "RECTANGLE", "name": "Team Card 3", "x": 880, "y": 240, "width": 360, "height": 300, "cornerRadius": 12 },
+            { "type": "RECTANGLE", "name": "Avatar 3", "x": 880, "y": 240, "width": 360, "height": 200, "cornerRadius": 12, "fills": [{ "color": { "r": 0.85, "g": 0.82, "b": 0.88 } }] },
+            { "type": "TEXT", "name": "Name 3", "x": 880, "y": 460, "width": 360, "height": 30, "characters": "ANNIE MCCLUSKEY", "fontSize": 20, "fontWeight": 700 },
+            { "type": "TEXT", "name": "Role 3", "x": 880, "y": 490, "width": 360, "height": 20, "characters": "SR. ASSOCIATE", "fontSize": 12, "fontWeight": 600, "fills": [{ "color": { "r": 0.2, "g": 0.4, "b": 0.8 } }] }
+          ]
+        },
+        {
+          "type": "FRAME",
+          "name": "Mentors Section",
+          "x": 0,
+          "y": 4050,
+          "width": 1440,
+          "height": 300,
+          "backgroundColor": { "r": 1, "g": 1, "b": 1 },
+          "children": [
+            { "type": "TEXT", "name": "Sidebar Title", "x": 80, "y": 100, "width": 200, "height": 60, "characters": "Mentors", "fontSize": 48, "fontWeight": 700 },
+            { "type": "LINE", "name": "Divider", "x": 360, "y": 40, "width": 1, "height": 220 },
+            { "type": "RECTANGLE", "name": "Mentor Card 1", "x": 420, "y": 80, "width": 220, "height": 140, "cornerRadius": 12, "fills": [{ "color": { "r": 0.97, "g": 0.97, "b": 0.97 } }] },
+            { "type": "TEXT", "name": "Mentor 1 Name", "x": 435, "y": 95, "width": 190, "height": 25, "characters": "Andre Haddad", "fontSize": 16, "fontWeight": 500 },
+            { "type": "TEXT", "name": "Mentor 1 Title", "x": 435, "y": 125, "width": 190, "height": 20, "characters": "CEO @ Turo", "fontSize": 13, "opacity": 0.5 },
+            { "type": "RECTANGLE", "name": "Mentor Card 2", "x": 660, "y": 80, "width": 220, "height": 140, "cornerRadius": 12, "fills": [{ "color": { "r": 0.97, "g": 0.97, "b": 0.97 } }] },
+            { "type": "TEXT", "name": "Mentor 2 Name", "x": 675, "y": 95, "width": 190, "height": 25, "characters": "Andrew Farnsworth", "fontSize": 16, "fontWeight": 500 },
+            { "type": "TEXT", "name": "Mentor 2 Title", "x": 675, "y": 125, "width": 190, "height": 20, "characters": "Lead Scientist @ BirdCast", "fontSize": 13, "opacity": 0.5 },
+            { "type": "RECTANGLE", "name": "Mentor Card 3", "x": 900, "y": 80, "width": 220, "height": 140, "cornerRadius": 12, "fills": [{ "color": { "r": 0.97, "g": 0.97, "b": 0.97 } }] },
+            { "type": "TEXT", "name": "Mentor 3 Name", "x": 915, "y": 95, "width": 190, "height": 25, "characters": "Ashley Zehnder", "fontSize": 16, "fontWeight": 500 },
+            { "type": "TEXT", "name": "Mentor 3 Title", "x": 915, "y": 125, "width": 190, "height": 20, "characters": "CEO @ Fauna Bio", "fontSize": 13, "opacity": 0.5 }
+          ]
+        },
+        {
+          "type": "FRAME",
+          "name": "Footer Section",
+          "x": 0,
+          "y": 4350,
+          "width": 1440,
+          "height": 800,
+          "backgroundColor": { "r": 0, "g": 0, "b": 0 },
+          "children": [
+            { "type": "TEXT", "name": "Pledge Title", "x": 350, "y": 100, "width": 700, "height": 80, "characters": "Janji untuk Bumi", "fontSize": 64, "fontWeight": 500, "textAlignHorizontal": "CENTER", "fills": [{ "color": { "r": 1, "g": 1, "b": 1 } }] },
+            { "type": "TEXT", "name": "Pledge Body", "x": 320, "y": 200, "width": 850, "height": 60, "characters": "Kami percaya pada masa depan yang berkelanjutan, di mana wisata dan pelestarian alam berjalan beriringan.", "fontSize": 24, "textAlignHorizontal": "CENTER", "opacity": 0.8, "fills": [{ "color": { "r": 1, "g": 1, "b": 1 } }] },
+            { "type": "RECTANGLE", "name": "CTA Section", "x": 0, "y": 350, "width": 1440, "height": 250, "fills": [{ "color": { "r": 1, "g": 1, "b": 1 } }] },
+            { "type": "TEXT", "name": "CTA Title", "x": 400, "y": 380, "width": 640, "height": 80, "characters": "Siap Menjelajah?", "fontSize": 64, "fontWeight": 500, "textAlignHorizontal": "CENTER" },
+            { "type": "TEXT", "name": "CTA Body", "x": 370, "y": 470, "width": 700, "height": 30, "characters": "Hubungi kami untuk merencanakan perjalanan ekowisata Anda di Surakarta.", "fontSize": 20, "textAlignHorizontal": "CENTER", "opacity": 0.7 },
+            { "type": "RECTANGLE", "name": "CTA Button", "x": 620, "y": 530, "width": 200, "height": 50, "cornerRadius": 25, "fills": [{ "color": { "r": 0, "g": 0, "b": 0 } }] },
+            { "type": "TEXT", "name": "Hubungi Kami", "x": 660, "y": 545, "width": 120, "height": 20, "characters": "Hubungi Kami", "fontSize": 16, "fontWeight": 500, "fills": [{ "color": { "r": 1, "g": 1, "b": 1 } }] },
+            { "type": "RECTANGLE", "name": "Footer Bottom", "x": 0, "y": 700, "width": 1440, "height": 100, "fills": [{ "color": { "r": 0, "g": 0, "b": 0 } }] },
+            { "type": "TEXT", "name": "Copyright", "x": 80, "y": 740, "width": 500, "height": 20, "characters": "SuraLestari © 2026 — Eco Journey Surakarta", "fontSize": 14, "opacity": 0.7, "fills": [{ "color": { "r": 1, "g": 1, "b": 1 } }] },
+            { "type": "TEXT", "name": "Footer Links", "x": 1100, "y": 740, "width": 260, "height": 20, "characters": "Instagram  YouTube  BytesFest 2026", "fontSize": 14, "opacity": 0.7, "fills": [{ "color": { "r": 1, "g": 1, "b": 1 } }] }
+          ]
+        }
+      ]
+    }
+  ]
+}

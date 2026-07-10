@@ -9,12 +9,10 @@ const cards = [
     body: "Surakarta dikelilingi panorama alam yang memukau. Dari hamparan hijau Taman Balekambang yang bersejarah, kesejukan Hutan Kota Kadipaten, hingga pesona Waduk Cengklik saat senja. Nikmati trekking di lereng Gunung Lawu yang menjulang di cakrawala utara Solo, atau bersantai di Kebun Raya Purwodadi yang menawarkan ribuan koleksi flora.",
     places: [
       "Taman Balekambang",
-      "Hutan Kota Kadipaten",
       "Waduk Cengklik",
       "Gunung Lawu",
-      "Kebun Raya Purwodadi",
     ],
-    image: "/images/wisata_alam_solo.jpg",
+    image: "/images/taman_balekambang_solo.png",
   },
   {
     number: "02",
@@ -46,7 +44,7 @@ const cards = [
   },
 ];
 
-export function ApproachSection() {
+export function PendekatanSection() {
   return (
     <>
       {/* Sticky Approach Header */}

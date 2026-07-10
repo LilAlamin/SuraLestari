@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export function MissionSection() {
+export function TentangSection() {
   return (
     <section id="tentang" className="relative z-20 w-full min-h-[85vh] bg-white flex flex-col items-center justify-center py-24 px-6 text-center overflow-hidden">
       {/* Background Image of Tugu Keris */}

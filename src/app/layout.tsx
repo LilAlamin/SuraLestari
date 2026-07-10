@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Roboto, Roboto_Serif, Syncopate } from "next/font/google";
 import "./globals.css";
 import { Navbar } from "@/components/Navbar";
+import { ChatBot } from "@/components/ChatBot";
 
 const robotoSerif = Roboto_Serif({
   variable: "--font-roboto-serif",
@@ -44,8 +45,9 @@ export default function RootLayout({
       lang="en"
       className={`${robotoSerif.variable} ${roboto.variable} ${syncopate.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">
+      <body className="min-h-full flex flex-col" suppressHydrationWarning>
         <Navbar />
+        <ChatBot />
         {children}
       </body>
     </html>
