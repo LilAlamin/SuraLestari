@@ -26,11 +26,10 @@ export function Navbar() {
 
   const navLinks = [
     { name: "Beranda", href: "#" },
-    { name: "Tentang", href: "#tentang" },
+    { name: "Tentang"   , href: "#tentang" },
     { name: "Pendekatan", href: "#pendekatan" },
     { name: "Destinasi", href: "#destinasi" },
-    { name: "Tim", href: "#tim" },
-    { name: "Mentor", href: "#mentor" },
+    { name: "Dampak", href: "#dampak" },
   ];
 
   const handleLinkClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
@@ -102,16 +101,16 @@ export function Navbar() {
           {/* CTA Button (Desktop) */}
           <div className="hidden md:block">
             <a
-              href="#tentang"
-              onClick={(e) => handleLinkClick(e, "#tentang")}
+              href="#destinasi"
+              onClick={(e) => handleLinkClick(e, "#destinasi")}
               className={cn(
                 "inline-flex h-10 items-center justify-center rounded-full px-6 text-sm font-medium tracking-wide transition-all duration-300 shadow-sm",
                 isScrolled
-                  ? "bg-[#181610] hover:bg-[#3b3f2d] text-white"
+                  ? "bg-[#3b3f2d] hover:bg-[#596342] text-white"
                   : "bg-white/15 hover:bg-white/25 text-white backdrop-blur-sm border border-white/20 drop-shadow-md"
               )}
             >
-              Mulai Perjalanan
+              Jelajahi Destinasi
             </a>
           </div>
 
@@ -163,11 +162,11 @@ export function Navbar() {
         </div>
         <div>
           <a
-            href="#tentang"
-            onClick={(e) => handleLinkClick(e, "#tentang")}
-            className="flex h-12 items-center justify-center rounded-xl bg-[#181610] hover:bg-[#3b3f2d] text-white text-base font-medium transition-colors w-full shadow-sm"
+            href="#destinasi"
+            onClick={(e) => handleLinkClick(e, "#destinasi")}
+            className="flex h-12 items-center justify-center rounded-xl bg-[#3b3f2d] hover:bg-[#596342] text-white text-base font-medium transition-colors w-full shadow-sm"
           >
-            Mulai Perjalanan
+            Jelajahi Destinasi
           </a>
         </div>
       </div>
